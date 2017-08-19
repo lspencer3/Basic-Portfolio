@@ -1,5 +1,7 @@
-
-
+/*still can't figure out how to get my background to work*/
+body {
+    background-color:#FAEBD7;
+}
 /* about me page styling */
 
 #aboutme {position:absolute;
@@ -18,7 +20,7 @@
 
 /*make pages all have the same lenght between header bar*/
 .maintext{ position:relative;
-margin-top:60px;
+margin-top:0px;
 margin-left:100px;
 margin-right:400px;
 width:550px;
@@ -44,7 +46,6 @@ left:40px;
 margin-right:100px;
 font-family: arial;
 }
-
 /*portfolio page styling */
 
 #port{position:absolute;
@@ -170,7 +171,8 @@ width:160px;
 	margin-left:100px;
 	height:15%;
 }
-
+.mainheadercontain{position:static;
+}
 .header{position:absolute;
 	height:83px;
 	width:275px;
@@ -188,7 +190,13 @@ width:160px;
 
 }
 
+.headerlist1{position:relative;
+	right:-420px;
+	height:40px;
+width:640px;
+top:10px;
 
+}
 .contact{position:relative;
 	top:28px;
 	left:65px;
@@ -236,11 +244,6 @@ border-width:3px;
  border-color: #dddddd;
 }
 
-/*also couldn't figure out how to get my background to work*/
-body {
-    background-image:url(/assets/images/pink_rice.png);
-}
-
 .footer{position: fixed;
 	bottom:0px;
 	width:1250px;
@@ -258,3 +261,412 @@ body {
 	font-size: 8px;
 	color:#ffffff;
 }
+
+
+@media screen and (max-width: 980px){
+
+.headerlist1{position:relative;
+	right:-200px;
+	height:40px;
+width:640px;
+top:10px;
+
+}
+}
+
+
+@media screen and (max-width: 768px){
+
+.header{position:absolute;
+	height:83px;
+	width:200px;
+	margin-left:30px;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	font-weight: bold;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.headtext{color:#FFFFFF;
+	position:absolute;
+	bottom:24px;
+	left:5px;
+}
+
+.connectcontainer{position:relative;
+left:-120px;
+bottom:-550px;
+width:550px;
+height:175px;
+border-width:1px;
+border-style: solid;
+border-color: #dddddd;
+}
+
+
+.contact{position:relative;
+		float:right;
+		top:-40px;
+		right:250px;
+		border-color: #dddddd;
+    	border-right-style: solid;
+    	border-width: 1px;
+    	font-size: 18px;
+}
+
+.about{position:relative;
+	top:-40px;
+	right:-400px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+    right:50px;
+    font-size: 18px;
+
+}
+
+.portfolio{position:relative;
+	top:-40px;
+	right:0px;
+	font-size:18px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+.headerlist1{position:relative;
+	height:40px;
+width:640px;
+top:70px;
+right:50px;
+
+}
+
+.contactbox{position:relative;
+	height: 75px;
+	width: 430px;
+	left:40px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+}
+  
+  #contact{position:relative;
+  	top: 0px;
+  	left:0px;
+	font-family: Georgia;
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.userinfo{position:relative;
+margin-right: 20px;
+margin-left: 30px;
+margin-top: 80px;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+ width:550px;
+ height:470px;
+
+}
+
+.userinfo2{position: absolute;
+	top:100px;
+left:40px;
+font-family: arial;
+}
+
+
+#aboutme {position:absolute;
+	 height: 40px;
+	width: 470px;
+	left:40px;
+	font-size:30px;
+	font-weight: bold;
+	top:25px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5
+}
+
+
+.maintext{position:relative;
+top:-30px;
+left:80px;
+right:100px;
+width:600px;
+height:700px;
+border-width:1px;
+border-style: solid;
+border-color: #dddddd;
+}
+
+
+#pMe{position:relative;
+float:left;
+left:40px;
+}
+
+#aboutmep{position:relative;
+
+	left:48px;
+margin-right:80px;
+font-family:arial;
+}
+
+#port{position:absolute;
+	height: 60px;
+	width: 510px;
+	left:30px;
+	top:30px;
+	font-size: 30px;
+	font-weight: bold;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5;
+}
+
+.portbody{position:relative;
+	margin-top:75px;
+margin-left:20px;
+margin-right:350px;
+padding:500px, 1000px, 500px, 1000px;
+height:850px;
+width:570px;
+z-index: -1;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+}
+
+
+#p1{position:absolute;
+	left:30px;
+	top:130px;
+	width:100%;
+	height:auto;
+}
+
+#p2{position:absolute;
+	right:30px;
+	top:400px;
+}
+
+#p3{position:absolute;
+	bottom:-50px;
+	left:30px;
+
+}
+
+#p4{position:absolute;
+	bottom:-300px;
+right:30px;
+}
+
+}
+
+@media screen and (max-width: 640px){
+  
+.header{position:absolute;
+	height:83px;
+	width:640px;
+	margin-left:0px;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	font-weight: bold;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.headtext{color:#FFFFFF;
+	position:absolute;
+	bottom:24px;
+	left:185px;
+}
+
+.connectcontainer{position:relative;
+left:5px;
+bottom:-500px;
+width:550px;
+height:175px;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+}
+	.contact{position:absolute;
+		float:right;
+		top:45px;
+		left:500px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+
+}
+
+/*still need to reposition 
+these a bit and fix ordering on contact and index page*/
+.about{position:absolute;
+	top:45px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+    left:100px;
+    font-size: 18px;
+
+}
+
+.portfolio{position:absolute;
+	top:45px;
+	left:300px;
+	font-size: 18px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+}
+.headerlist1{position:relative;
+	right:40px;
+	height:40px;
+width:640px;
+top:70px;
+
+}
+
+.contactbox{position:absolute;
+	height: 75px;
+	width: 500px;
+	left:40px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+}
+}
+  #contact{position: absolute;
+  	top: 0px;
+  	left:0px;
+	font-family: Georgia;
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.userinfo{position:relative;
+margin-right: 20px;
+margin-left: 30px;
+margin-top: 80px;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+ width:550px;
+ height:470px;
+
+}
+
+.userinfo2{position: absolute;
+	top:100px;
+left:40px;
+font-family: arial;
+}
+
+
+#aboutme {position:absolute;
+	 height: 50px;
+	width: 470px;
+	left:40px;
+	font-size:30px;
+	font-weight: bold;
+	top:25px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5;
+}
+
+/*make pages all have the same lenght between header bar*/
+.maintext{ position:relative;
+margin-top:90px;
+left:-60px;
+margin-right:400px;
+width:550px;
+height:500px;
+z-index: -1;
+border-width:1px;
+border-style: solid;
+border-color: #dddddd;
+}
+
+
+#pMe{position:relative;
+float:left;
+top:-70px;
+left:40px;
+}
+
+#aboutmep{position:relative;
+	top:-70px;
+	left:48px;
+margin-right:100px;
+font-family: arial;
+}
+
+#port{position:absolute;
+	height: 60px;
+	width: 510px;
+	left:30px;
+	top:30px;
+	font-size: 30px;
+	font-weight: bold;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5;
+}
+
+.portbody{position:relative;
+	margin-top:75px;
+margin-left:20px;
+margin-right:350px;
+padding:500px, 1000px, 500px, 1000px;
+height:850px;
+width:570px;
+z-index: -1;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+}
+
+
+#p1{position:absolute;
+	left:30px;
+	top:130px;
+	width:100%;
+	height:auto;
+}
+
+#p2{position:absolute;
+	right:30px;
+	top:400px;
+}
+
+#p3{position:absolute;
+	bottom:-50px;
+	left:30px;
+
+}
+
+#p4{position:absolute;
+	bottom:-300px;
+right:30px;
+}
+}
+
+
